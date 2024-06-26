@@ -1,0 +1,13 @@
+@font-face {
+     font-family: 'Playfair Display SC';
+     font-weight: normal;
+     font-style: normal;
+     src: url("./Fonts/Playfair Display SC.ttf") format("truetype");
+ }
+  
+ @font-face {
+     font-family: 'Playfair Display SC Black';
+     font-weight: normal;
+     font-style: normal;
+     src: url("./Fonts/Playfair Display SC Black.ttf") format("truetype");
+ }
