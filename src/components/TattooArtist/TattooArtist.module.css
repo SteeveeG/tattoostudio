@@ -1,0 +1,53 @@
+.div {
+     position: relative;
+}
+
+.box {
+     display: flex;
+     flex-direction: column;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+     width: 85%;
+     border: 1px solid;
+     border-top-width: 0;
+     color: white;
+     height: 27em;
+}
+
+.header {
+     margin: 9px;
+     font-family: 'Playfair Display SC';
+     font-size: 1.5em;
+}
+
+.artists {
+     height: 100%;
+}
+
+.TattooArtist1 {
+    width: 250px;
+    height:300px;
+    position: relative;
+    left: 40px;
+    size: 3px;
+
+}
+
+.TA1ReferencePic1 {
+     width: 50px;
+      
+}
+
+.TA1ReferencePic2 {
+     width: 50px;
+}
+
+.TA1ReferencePic3 {
+     width: 50px;
+}
+
+.TA1ReferencePic4 {
+     width: 50px;
+}
