@@ -1,0 +1,29 @@
+.div {
+     position: relative;
+     margin-top: 6em;
+}
+
+.Quote {
+     color: white;
+     font-family: 'Playfair Display SC';
+     position: relative;
+     font-size: 5em;
+     margin: 0;
+     padding: 0;
+
+}
+
+.box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+     text-align: center;
+     width: 85%;
+     border: 1px solid;
+     color: white;
+     height: 27em;
+}
