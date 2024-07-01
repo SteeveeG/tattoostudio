@@ -1,30 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import css from './navbar.module.css'
 
-function navbar() {
-  const [isSticky, setSticky] = useState(false);
+function navbar({ isSticky }) {
 
- 
- 
-  function handleScroll(){
-    if (window.scrollY > sticky) {
-      setSticky(true);
-    } else {
-      setSticky(false);
-    }
-  };
-  useEffect(() => {
-    const navbar = document.getElementById("navbar");
-    const sticky = navbar.offsetTop;
-
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
- 
   return (
     <nav id='navbar' className={isSticky ? css.Stickynav  : css.nav }>
       <ul className={css.Linklist}>

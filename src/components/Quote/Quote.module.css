@@ -2,6 +2,10 @@
      position: relative;
      margin-top: 6em;
 }
+.Stickydiv{
+     position: relative;
+     margin-top: 149px;
+}
 
 .Quote {
      color: white;
