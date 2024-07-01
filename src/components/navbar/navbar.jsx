@@ -4,15 +4,20 @@ import css from './navbar.module.css'
 function navbar() {
   const [isSticky, setSticky] = useState(false);
 
-  const handleScroll = () => {
-    if (window.scrollY > 962) {
+ 
+ 
+  function handleScroll(){
+    if (window.scrollY > sticky) {
       setSticky(true);
     } else {
       setSticky(false);
     }
   };
-
   useEffect(() => {
+    const navbar = document.getElementById("navbar");
+    const sticky = navbar.offsetTop;
+
+
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -21,7 +26,7 @@ function navbar() {
 
  
   return (
-    <nav className={isSticky ? css.Stickynav  : css.nav }>
+    <nav id='navbar' className={isSticky ? css.Stickynav  : css.nav }>
       <ul className={css.Linklist}>
         <li>
           <a href="#" className={css.Linktext}>tattoo artists</a>
