@@ -3,17 +3,18 @@
 }
 
 .box {
-     display: flex;
-     flex-direction: column;
-     margin-left: auto;
-     margin-right: auto;
-     left: 0;
-     right: 0;
-     width: 85%;
-     border: 1px solid;
-     border-top-width: 0;
-     color: white;
-     height: 27em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 85%;
+    border: 1px solid;
+    top: -1px;
+    color: white;
+    height: min-content;
 }
 
 .header {
@@ -22,48 +23,40 @@
      font-size: 1.5em;
 }
 
-.artists {
-    height: 100%;
+.row {
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column {
+    -ms-flex: 25%;
+    flex: 24%;
+    max-width: 25%;
+    padding: 0 4px;
 }
 
-.TattooArtist1 {
-    width: 250px;
-    height:300px;
-    position: relative;
-    margin-left: 40px;
+.Pic{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 
-.TA1ReferencePic1 {
-    width: 11em;
-    position: relative;
-    margin-left: 20px;
-    margin-bottom: 1.5em;
-    height: 14em;
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
-.TA1ReferencePic2 {
-    width: 9em;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    height: 19em;
-    position: relative;
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
 }
 
-.TA1ReferencePic3 {
-     width: 30em;
-     height: 10em;
-
-}
-
-.TA1ReferencePic4 {
-    margin-top: 10px;
-    width: 34em;
-    height: 12em;
-
-}
-.RowPics{
-    display: flex;
-    flex-direction: column;
-    Margin-left: 15px;
-}

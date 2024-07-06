@@ -30,13 +30,26 @@ function TattooArtist() {
              initial="hidden"
              animate={control}>
               <p className={css.header}>tattoo artist</p>
-              <div className={css.artists}>
-                   <img src={example} className={css.TattooArtist1} alt="example pic"/>
-                   <img src={example} className={css.TA1ReferencePic1} alt="example pic"/>
-                   <img src={example} className={css.TA1ReferencePic2} alt="example pic"/>
-                   <div className={css.RowPics}>
-                        <img src={example} className={css.TA1ReferencePic3} alt="example pic"/>
-                        <img src={example} className={css.TA1ReferencePic4} alt="example pic"/>
+              <div className={css.row}>
+                   <div className={css.column}>
+                        <img src={example} className={css.Pic} alt="example pic"/>
+                        <img src={example} className={css.Pic} alt="example pic"/>
+                        <img src={example} className={css.Pic} alt="example pic"/>
+                   </div>
+                   <div className={css.column}>
+                        <img src={example} className={css.Pic} alt="example pic"/>
+                        <img src={example} className={css.Pic} alt="example pic"/>
+                        <img src={example} className={css.Pic} alt="example pic"/>
+                   </div>
+                   <div className={css.column}>
+                        <img src={example} className={css.Pic} alt="example pic"/>
+                        <img src={example} className={css.Pic} alt="example pic"/>
+                        <img src={example} className={css.Pic} alt="example pic"/>
+                   </div>
+                   <div className={css.column}>
+                        <img src={example} className={css.Pic} alt="example pic"/>
+                        <img src={example} className={css.Pic} alt="example pic"/>
+                        <img src={example} className={css.Pic} alt="example pic"/>
                    </div>
               </div>
          </motion.div>
