@@ -2,16 +2,11 @@
      position: relative;
      margin-top: 6em;
 }
-.Stickydiv{
-     position: relative;
-     margin-top: 149px;
-}
-
 .Quote {
      color: white;
      font-family: 'Playfair Display SC';
      position: relative;
-     font-size: 5em;
+     font-size: 7vw;
      margin: 0;
      padding: 0;
 
@@ -29,5 +24,17 @@
      width: 85%;
      border: 1px solid;
      color: white;
-     height: 27em;
+     height: 27vw;
+}
+
+@media (min-width: 1200px) {
+     .Quote {
+          font-size: 5vw;
+     }
+}
+@media (max-width: 1200px) {
+     .box{
+          height: 44vw;
+     }
+
 }

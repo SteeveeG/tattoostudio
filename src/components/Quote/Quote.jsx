@@ -13,7 +13,7 @@ const boxVariant = {
 
 
 
-function Quote({isSticky}) {
+function Quote() {
     const control = useAnimation();
     const [ref, inView] = useInView();
 
@@ -28,7 +28,7 @@ function Quote({isSticky}) {
 
     return (
         <motion.div
-            className={isSticky ? css.Stickydiv : css.div}
+            className={css.div}
             ref={ref}
             variants={boxVariant}
             initial="hidden"

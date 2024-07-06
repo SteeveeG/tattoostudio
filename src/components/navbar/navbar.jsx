@@ -1,22 +1,22 @@
 import React from 'react'
 import css from './navbar.module.css'
 
-function navbar({ isSticky }) {
+function navbar() {
 
   return (
-    <nav id='navbar' className={isSticky ? css.Stickynav  : css.nav }>
+    <nav id='navbar' className={css.nav }>
       <ul className={css.Linklist}>
         <li>
-          <a href="#" className={css.Linktext}>tattoo artists</a>
+          <a href="#" className={css.LinkText}>tattoo artists</a>
         </li>
         <li>
-          <a href="#" className={css.Linktext}>contact</a>
+          <a href="#" className={css.LinkText}>contact</a>
         </li>
         <li>
           <a href="#" className={css.LinkLogo}>your tattoo studio</a>
         </li>
         <li>
-          <a href="#" className={css.Linktext}>location</a>
+          <a href="#" className={css.LinkText}>location</a>
         </li>
         <div className={css.LanguageDiv}>
           <div className={css.LanguageContainer}>
