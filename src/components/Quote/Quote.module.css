@@ -36,5 +36,9 @@
      .box{
           height: 44vw;
      }
-
+}
+@media (max-width: 800px) {
+     .div {
+          margin-top: 3.5em;
+     }
 }
