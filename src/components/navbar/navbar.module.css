@@ -34,6 +34,8 @@
 .LanguageDiv {
      display: flex;
      flex-direction: row;
+     height: max-content;
+
 }
 
 .LanguageLink {
@@ -74,6 +76,11 @@
      transform-origin: bottom center;
 }
 
+.Radio:checked  ~ .language:after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+
 .language {
      color: white;
      font-family: 'Playfair Display SC';
@@ -97,7 +104,7 @@
 }
 
 .bar {
-     height: 4px;
+     height: 2px;
      width: 100%;
      background-color: white;
      border-radius: 100px;
@@ -123,9 +130,7 @@
      display: none;
 }
 
-
 @media (max-width: 900px) {
-
      .LinkText,
      .LanguageLink {
 
@@ -147,7 +152,6 @@
           display: block;
           margin: 0;
           padding: 0;
-
           position: relative;
      }
 
@@ -163,7 +167,7 @@
      }
 
      .togglebtn:checked~.Linklist>li>.LinkText,
-     .togglebtn:checked~.Linklist,    
+     .togglebtn:checked~.Linklist,
      .togglebtn:checked~.Linklist>.LanguageDiv {
           display: block;
 
@@ -187,12 +191,30 @@
           width: 100%;
           background-color: transparent;
           backdrop-filter: blur(80px);
-          padding: 30px 0 ;
+          padding: 30px 0;
      }
 
+     .LanguageContainer {
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+          text-align: center;
+          width: fit-content;
+     }
+
+     .LinkContainer {
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+          text-align: center;
+          width: fit-content
+     }
 }
+
 @media (max-width: 405px) {
      .TattooStudioLink {
-         font-size: 6.7vw;
+          font-size: 6.7vw;
      }
 }
