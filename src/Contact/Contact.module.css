@@ -1,0 +1,43 @@
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 85%;
+    border: 1px solid;
+    top: -1px;
+    color: white;
+    height: min-content;
+}
+
+.info {
+    width: 60%;
+    margin: 20px;
+    font-family: 'Playfair Display SC';
+    font-size: 1.4em;
+    line-height: 40px;
+ }
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0;
+}
+.header{
+    font-family: 'Playfair Display SC';
+    margin: 20px 20px 0 20px;
+    font-size: 1.2em;
+}
+.tattooartistlink{
+    font-family: 'Playfair Display SC';
+    list-style: none;
+    margin: 20px 0;
+    font-size: 1.4em;
+}
+.tattooartistlink a{
+    text-decoration: none;
+    color: white;
+}

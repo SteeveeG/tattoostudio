@@ -5,10 +5,10 @@ import Intro from './components/Intro/Intro'
 import Navbar from './components/navbar/navbar'
 import Quote from './components/Quote/Quote'
 import TattooArtist from './components/TattooArtist/TattooArtist'
+import Contact from "./Contact/Contact.jsx";
 
 
 function Main() {
-
     return (
         <React.StrictMode>
             <header>
@@ -17,6 +17,7 @@ function Main() {
             <Navbar />
             <Quote />
             <TattooArtist/>
+            <Contact/>
         </React.StrictMode>
     );
 }
