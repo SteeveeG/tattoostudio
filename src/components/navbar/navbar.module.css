@@ -9,7 +9,7 @@
      z-index: 1;
 }
 
-.Linklist {
+.linklist {
      display: flex;
      flex-direction: row;
      justify-content: space-evenly;
@@ -19,10 +19,10 @@
      margin: 0;
 }
 
-.LinkText,
-.LinkLogo,
-.LanguageLink,
-.TattooStudioLink {
+.linktext,
+.linklogo,
+.languagelink,
+.tattoostudiolink {
      position: relative;
      text-decoration: none;
      color: white;
@@ -31,31 +31,31 @@
 }
 
 
-.LanguageDiv {
+.languagediv {
      display: flex;
      flex-direction: row;
      height: max-content;
 
 }
 
-.LanguageLink {
+.languagelink {
      margin: 0 5px;
 }
 
-.LinkLogo,
-.TattooStudioLink {
+.linklogo,
+.tattoostudiolink {
      font-size: 1.9em;
 
 }
 
-.TattooStudioLink {
+.tattoostudiolink {
      left: 7%;
 }
 
-.LinkText:after,
-.LinkLogo:after,
+.linktext:after,
+.linklogo:after,
 .language:after,
-.TattooStudioLink:after {
+.tattoostudiolink:after {
      content: '';
      position: absolute;
      width: 100%;
@@ -68,15 +68,15 @@
      transition: transform 0.25s ease-out;
 }
 
-.LinkText:hover:after,
-.LinkLogo:hover:after,
+.linktext:hover:after,
+.linklogo:hover:after,
 .language:hover:after,
-.TattooStudioLink:hover:after {
+.tattoostudiolink:hover:after {
      transform: scaleX(1);
      transform-origin: bottom center;
 }
 
-.Radio:checked  ~ .language:after {
+.radio:checked  ~ .language:after {
     transform: scaleX(1);
     transform-origin: bottom center;
 }
@@ -91,22 +91,22 @@
 }
 
 @media (max-width: 870px) {
-    .LinkText,
-    .LinkLogo,
-    .LanguageLink {
+    .linktext,
+    .linklogo,
+    .languagelink {
         font-size: 1.3em;
     }
 
 }
 @media (max-width: 790px) {
-    .LinkText,
-    .LanguageDiv {display: none
+    .linktext,
+    .languagediv {display: none
     }
     .nav{
         display: flex;
         flex-direction: row;
     }
-    .Linklist{
+    .linklist{
         padding: 0 7%;
     }
 }
@@ -114,12 +114,12 @@
      cursor: pointer;
 }
 
-.Radio {
+.radio {
      visibility: hidden;
      display: none;
 }
 
-.Radio:checked {
+.radio:checked {
      text-decoration: underline;
 }
 
@@ -131,7 +131,7 @@
 
 }
 
-.TattooStudio {
+.tattoostudio {
      display: none;
 }
 
@@ -151,8 +151,8 @@
 }
 
 @media (max-width: 900px) {
-     .LinkText,
-     .LanguageLink {
+     .linktext,
+     .languagelink {
 
           font-size: 1.1em;
      }
@@ -160,22 +160,22 @@
 
 @media (max-width: 800px) {
 
-     .LinkText,
-     .LanguageDiv,
+     .linktext,
+     .Languagediv,
      .ultattoologo,
-     .Linklist {
+     .linklist {
 
           display: none;
      }
 
-     .TattooStudio {
+     .tattoostudio {
           display: block;
           margin: 0;
           padding: 0;
           position: relative;
      }
 
-     .LinkLogo {
+     .linklogo {
           position: relative;
           left: 7%;
 
@@ -186,14 +186,14 @@
           display: flex;
      }
 
-     .togglebtn:checked~.Linklist>li>.LinkText,
-     .togglebtn:checked~.Linklist,
-     .togglebtn:checked~.Linklist>.LanguageDiv {
+     .togglebtn:checked~.linklist>li>.linktext,
+     .togglebtn:checked~.linklist,
+     .togglebtn:checked~.linklist>.languagediv {
           display: block;
 
      }
 
-     .LinkText {
+     .linktext {
           font-size: 1.7em;
           margin-bottom: 20px;
      }
@@ -203,9 +203,9 @@
           display: block;
      }
 
-     .Linklist {
+     .linklist {
           flex-direction: column;
-          top: 4.4emem;
+          top: 4.4em;
           position: absolute;
           text-align: center;
           width: 100%;
@@ -214,7 +214,7 @@
           padding: 30px 0;
      }
 
-     .LanguageContainer {
+      .languagecontainer {
           margin-left: auto;
           margin-right: auto;
           left: 0;
@@ -223,7 +223,7 @@
           width: fit-content;
      }
 
-     .LinkContainer {
+     .linkcontainer {
           margin-left: auto;
           margin-right: auto;
           left: 0;
@@ -234,7 +234,7 @@
 }
 
 @media (max-width: 405px) {
-     .TattooStudioLink {
+     .tattoostudiolink {
           font-size: 6.7vw;
      }
 }

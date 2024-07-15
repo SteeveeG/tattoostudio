@@ -11,7 +11,7 @@ function Quote() {
     return (
         <div className={css.div}>
             <div className={css.box}>
-                <p className={css.Quote}>{t("Quote")}</p>
+                <p className={css.quote}>{t("quote")}</p>
             </div>
         </div>
     )

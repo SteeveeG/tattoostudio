@@ -13,22 +13,22 @@
 }
 
 
-.HeaderYour,
-.HeaderTattoo,
-.HeaderStudio{
+.headeryour,
+.headertattoo,
+.headerstudio{
      color: white;
      font-family: 'Playfair Display SC';
      margin: 0;
      font-size: 5.5vw;
 }
- .YourTattooDiv
+ .yourtattoodiv
  {
      display: flex;
      justify-content:space-between;
      margin-top: 3px;
  }
 
- .HeaderStudio{
+ .headerstudio{
      position: absolute;
      bottom: 0;
      margin-left: auto;
@@ -39,19 +39,13 @@
      margin-bottom: 20px;
  }
 
-.HeaderYour{
+.headeryour{
      margin-left: 1em;
 }
 
-.HeaderTattoo{
+.headertattoo{
      margin-right: 1em;
 }
-
- .Background{
-     z-index: -2;
-     position: relative;
-     display: block;
- }
 
  @media (min-height: 1400px)  {
      .div{

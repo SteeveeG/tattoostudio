@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 
 function navbar() {
   const { t } = useTranslation();
-  let Checkbox = useRef(null);
+  let checkbox = useRef(null);
   useEffect(() => {
     function handleLanguageChange(lng) {
         document.body.classList.remove('en', 'de');
@@ -26,43 +26,43 @@ const changeLanguage = (lng) => {
     i18next.changeLanguage(lng);
 }
 const closeNavbar = () => {
-    Checkbox.checked = false;
+    checkbox.checked = false;
 }
   return (
     <nav id='navbar' className={css.nav}>
-       <li className={css.TattooStudio}>
-          <a href="#" className={css.TattooStudioLink} onClick={() => closeNavbar()}>{t("TattooStudioName")}</a>
+       <li className={css.tattoostudio}>
+          <a href="#" className={css.tattoostudiolink} onClick={() => closeNavbar()}>{t("tattoostudioname")}</a>
         </li>
       <input type="checkbox" id="toggle_button" ref={(Element) =>
-         Checkbox = Element} className={css.togglebtn} />
+         checkbox = Element} className={css.togglebtn} />
       <label htmlFor="toggle_button" className={css.togglebutton}>
         <span className={css.bar} />
         <span className={css.bar} />
         <span className={css.bar} />
       </label>
-      <ul className={css.Linklist}>
-        <li className={css.LinkContainer}>
-          <a href="#" className={css.LinkText} onClick={() => closeNavbar()}>{t("TattooArtists")}</a>
+      <ul className={css.linklist}>
+        <li className={css.linkcontainer}>
+          <a href="#" className={css.linktext} onClick={() => closeNavbar()}>{t("tattooartists")}</a>
         </li>
-        <li className={css.LinkContainer}>
-          <a href="#" className={css.LinkText} onClick={() => closeNavbar()}>{t("Contact")}</a>
+        <li className={css.linkcontainer}>
+          <a href="#" className={css.linktext} onClick={() => closeNavbar()}>{t("contact")}</a>
         </li>
         <li className={css.ultattoologo}>
-          <a href="#" className={css.LinkLogo}>{t("TattooStudioName")}</a>
+          <a href="#" className={css.linklogo}>{t("tattoostudioname")}</a>
         </li>
-        <li className={css.LinkContainer}>
-          <a href="#" className={css.LinkText} onClick={() => closeNavbar()}>{t("Location")}</a>
+        <li className={css.linkcontainer}>
+          <a href="#" className={css.linktext} onClick={() => closeNavbar()}>{t("location")}</a>
         </li>
-        <div className={css.LanguageDiv}>
-          <div className={css.LanguageContainer}>  
+        <div className={css.languagediv}>
+          <div className={css.languagecontainer}>
             <input type="radio" id="De" name="language" checked={lang === 'de'} 
             onClick={() => closeNavbar()}
-             className={css.Radio} onChange={() => changeLanguage('de')} />
+             className={css.radio} onChange={() => changeLanguage('de')} />
             <label htmlFor="De" className={css.language}>De</label>
           </div>
-          <div className={css.LanguageContainer}>
+          <div className={css.languagecontainer}>
             <input type="radio"  onChange={() => changeLanguage('en')} 
-              id="En" className={css.Radio} checked={lang === 'en'}  onClick={() => closeNavbar()}
+              id="En" className={css.radio} checked={lang === 'en'}  onClick={() => closeNavbar()}
               name="language" />
             <label htmlFor="En" className={css.language}>En</label>
           </div>

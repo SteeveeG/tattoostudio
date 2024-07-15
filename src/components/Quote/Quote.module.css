@@ -2,7 +2,7 @@
      position: relative;
      margin-top: 6em;
 }
-.Quote {
+.quote {
      color: white;
      font-family: 'Playfair Display SC';
      position: relative;
@@ -33,7 +33,7 @@
 }
 
 @media (min-width: 1200px) {
-     .Quote {
+     .quote {
           font-size: 5vw;
      }
 }

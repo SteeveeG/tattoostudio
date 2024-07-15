@@ -8,20 +8,20 @@ function TattooArtist() {
 
     return (
         <div className={css.box}>
-            <p className={css.header}>{t("TattooArtists")}</p>
+            <p className={css.header}>{t("tattooartists")}</p>
             <div className={css.row}>
                 <div className={css.column}>
                     <img src={example} alt="example pic"/>
                     <img src={example} alt="example pic"/>
                     <img src={example} alt="example pic"/>
-                    <p className={css.tattooArtist}>Tattowierer Nummer 2</p>
+                    <p className={css.tattooartist}>Tattowierer Nummer 2</p>
                     <img src={example} alt="example pic"/>
                     <img src={example} alt="example pic"/>
                     <img src={example} alt="example pic"/>
                 </div>
 
                 <div className={css.column}>
-                <p className={css.tattooArtist}>Tattowierer Nummer 1</p>
+                <p className={css.tattooartist}>Tattowierer Nummer 1</p>
                     <img src={example} alt="example pic"/>
                     <img src={example} alt="example pic"/>
                     <img src={example} alt="example pic"/>
