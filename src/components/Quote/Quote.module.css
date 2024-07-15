@@ -12,6 +12,11 @@
 
 }
 
+
+@media (max-width: 790px) {
+  .div{margin-top: 3em}
+}
+
 .box {
      display: flex;
      justify-content: center;

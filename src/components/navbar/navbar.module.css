@@ -90,6 +90,26 @@
      text-decoration: none;
 }
 
+@media (max-width: 870px) {
+    .LinkText,
+    .LinkLogo,
+    .LanguageLink {
+        font-size: 1.3em;
+    }
+
+}
+@media (max-width: 790px) {
+    .LinkText,
+    .LanguageDiv {display: none
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .Linklist{
+        padding: 0 7%;
+    }
+}
 .language:hover {
      cursor: pointer;
 }
