@@ -5,7 +5,7 @@ import Intro from './components/Intro/Intro'
 import Navbar from './components/navbar/navbar'
 import Quote from './components/Quote/Quote'
 import TattooArtist from './components/TattooArtist/TattooArtist'
-import Contact from "./Contact/Contact.jsx";
+import Contact from "./components/Contact/Contact.jsx";
 
 
 function Main() {

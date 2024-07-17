@@ -3,8 +3,6 @@ import css from './Quote.module.css'
 import { useTranslation } from "react-i18next";
 
 
- 
-
 function Quote() {
     const { t } = useTranslation();
 

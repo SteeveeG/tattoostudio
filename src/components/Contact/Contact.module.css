@@ -1,0 +1,133 @@
+.link{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display SC';
+    font-size: 1.5em;
+}
+.linkcontainer{
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+
+.link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 85%;
+    border: 1px solid;
+    top: -1px;
+    color: white;
+    height: min-content;
+}
+
+.info {
+    width: 60%;
+    margin: 20px;
+    font-family: 'Playfair Display SC';
+    font-size: 1.4em;
+    line-height: 40px;
+    line-break: auto
+;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0;
+}
+.header{
+    font-family: 'Playfair Display SC';
+    margin: 20px 20px 0 20px;
+    font-size: 1.2em;
+}
+.tattooartistlink{
+    font-family: 'Playfair Display SC';
+    list-style: none;
+    margin: 20px 0;
+    font-size: 1.4em;
+}
+.tattooartistlink a{
+    text-decoration: none;
+    color: white;
+}
+.bookingdiv{
+  margin: 0 20px;
+}
+.bookinginfo{
+    font-family: 'Playfair Display SC';
+    font-size: 1.4em;
+}
+
+@media (max-width: 870px) {
+    .link{
+        font-size: 18px;
+    }
+}
+@media (max-width: 740px) {
+    .flexbox{
+        flex-direction: column;
+        margin: 40px 0 20px 0;
+    }
+    .info{
+        padding:0 20px 0 40px;
+        width: 90%;
+        margin: 0;
+        line-height: normal;
+    }
+    .linklist{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+        list-style: none;
+        margin: 20px 0 0 0 ;
+        flex-flow: wrap;
+    }
+    .linklist > div {
+        margin: 10px 18px;
+    }
+}
+@media (max-width: 500px) {
+    .bookinginfo{
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+    .info{
+        font-size: 20px;
+        margin: 0 0 0 15px;
+        padding: 0;
+    }
+    .linklist > div{
+        margin: 5px 50px;
+    }
+
+}
+@media (max-width: 430px) {
+    .link{
+        font-size: 20px;
+    }
+}
