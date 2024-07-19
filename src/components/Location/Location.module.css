@@ -1,0 +1,114 @@
+.box {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+     width: 85.1%;
+     border: 1px solid;
+     top: -1px;
+     color: white;
+     height: min-content;
+}
+
+.header,
+.address,
+.link,
+.openingtime {
+     font-family: 'Playfair Display SC';
+     color: white;
+}
+
+.header {
+
+     margin: 10px 20px;
+     width: max-content;
+     font-size: 1.2em;
+}
+
+.building {
+     position: relative;
+     width: 600px;
+     margin-left: 20px;
+}
+
+.container {
+     position: relative;
+     margin: 50px 20px 20px 20px;
+     width: 100%;
+     text-align: center;
+}
+
+.container>ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+
+.address {
+     margin: 0 0 20px 0;
+     font-size: 2em;
+     padding: 0;
+     text-align: center;
+     font-variant-numeric: lining-nums;
+}
+
+.link {
+     text-decoration: none;
+     font-size: 1.7em;
+     margin: 10px 0;
+     position: relative;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+     width: max-content;
+}
+
+
+.link:after {
+     content: '';
+     position: absolute;
+     width: 100%;
+     transform: scaleX(0);
+     height: 2px;
+     bottom: 0;
+     left: 0;
+     background-color: white;
+     transform-origin: bottom center;
+     transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+     transform: scaleX(1);
+     transform-origin: bottom center;
+}
+
+
+.div1 {
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 20px;
+
+}
+
+.div2 {
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 20px;
+}
+.maps{
+     position: relative;
+     width: 650px;
+     left: 0;
+     margin-right: 20px;
+}
+.openingtime{
+     width: 100%;
+     font-size: 1.7em;
+     margin-left: 20px;
+     font-variant-numeric: lining-nums;
+}

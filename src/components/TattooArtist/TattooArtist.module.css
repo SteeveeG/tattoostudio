@@ -13,7 +13,7 @@
     top: -1px;
     color: white;
     height: min-content;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .header {
