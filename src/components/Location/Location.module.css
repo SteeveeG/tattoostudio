@@ -13,59 +13,70 @@
      height: min-content;
 }
 
-.header,
+.header ,
 .address,
 .link,
-.openingtime {
+.openingtime,
+.headeradress,
+.openingtimeheader{
      font-family: 'Playfair Display SC';
      color: white;
 }
+.address,
+.openingtime{
+     font-size: 2em;
+}
+.headeradress,
+.openingtimeheader{
+   font-size: 3em;
+}
+
 
 .header {
-
-     margin: 10px 20px;
-     width: max-content;
-     font-size: 1.2em;
+     margin: 10px;
+     font-size: 1.6em;
 }
 
 .building {
      position: relative;
-     width: 600px;
+     width: 760px;
      margin-left: 20px;
 }
 
 .container {
      position: relative;
-     margin: 50px 20px 20px 20px;
+     margin: 0 20px 20px 20px;
      width: 100%;
      text-align: center;
+}
+.container>ul>li{
+margin-top: 5px;
 }
 
 .container>ul {
      list-style: none;
      margin: 0;
      padding: 0;
+     text-align: left;
+     margin: 0px 0 0 40px;
 }
-
+.headeradress{
+    margin: 0 0 0 20px;
+    text-align: left;
+}
 .address {
-     margin: 0 0 20px 0;
-     font-size: 2em;
+
      padding: 0;
-     text-align: center;
+     text-align: left;
+     margin: 0 0 0 40px;
      font-variant-numeric: lining-nums;
 }
 
 .link {
      text-decoration: none;
-     font-size: 1.7em;
+     font-size: 1.2em;
      margin: 10px 0;
      position: relative;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     left: 0;
-     right: 0;
-     width: max-content;
 }
 
 
@@ -102,13 +113,42 @@
 }
 .maps{
      position: relative;
-     width: 650px;
+     width: 700px;
      left: 0;
-     margin-right: 20px;
+     margin-right: 50px;
+}
+.openingtimeheader{
+     margin: 0;
+     font-variant-numeric: lining-nums;
+     text-align: left;
 }
 .openingtime{
-     width: 100%;
-     font-size: 1.7em;
-     margin-left: 20px;
+     margin: 0 0 0 20px;
      font-variant-numeric: lining-nums;
+     text-align: left;
+}
+.openingtimediv{
+     margin: 20px 0 0 20px;
+     width: 100%;
+     position: relative;
+}
+
+@media (max-width: 1400px) {
+     .address,
+.openingtime,
+.link{
+     font-size: 2vw;
+}
+.headeradress,
+.openingtimeheader{
+   font-size: 3vw;
+}
+.maps{
+     width: 50vw;
+}
+.building{width: 50vw;}
+.container{    margin: 0 20px 20px 0px;}
+}
+@media (max-width: 700px) {
+     
 }

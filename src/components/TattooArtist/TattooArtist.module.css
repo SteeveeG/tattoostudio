@@ -8,7 +8,7 @@
     margin-right: auto;
     left: 0;
     right: 0;
-    width: 85.1%;
+    width: 85%;
     border: 1px solid;
     top: -1px;
     color: white;
@@ -19,8 +19,8 @@
 .header {
     text-align: left;
     font-family: 'Playfair Display SC';
-    margin: 5px;
-    font-size: 1.4em;
+    margin: 10px;
+    font-size: 1.6em;
 }
 
 .row {
