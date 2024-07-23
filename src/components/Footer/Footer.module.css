@@ -1,0 +1,89 @@
+.container {
+     width: 85%;
+     position: relative;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     padding: 0;
+     padding: 180px 0 0 0;
+}
+
+.container>* {
+     margin: 0;
+     padding: 0;
+}
+
+.linkscontainer {
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+}
+
+.linkscontainer>ul>li>a,
+.header,
+.copyright {
+     font-family: 'Playfair Display SC';
+     color: white;
+}
+
+.categorylist,
+.tattooartistList {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     position: relative;
+}
+
+.categorylist {
+     width: 100%;
+     margin-top: 20px;
+}
+
+.tattooartistList {
+     min-width: fit-content;
+}
+
+.link {
+     font-size: 1.2em;
+     margin-bottom: 5px;
+     position: relative;
+     width: max-content;
+     font-variant-numeric: lining-nums;
+
+}
+
+.link>a {
+     text-decoration: none;
+}
+
+.header {
+     font-size: 2.5em;
+     margin: 0;
+}
+
+.copyright {
+     margin: 9em 0 10px 0;
+     text-align: center;
+     user-select: none;
+}
+
+
+
+ .link:after {
+     content: '';
+     position: absolute;
+     width: 100%;
+     transform: scaleX(0);
+     height: 2px;
+     bottom: 0;
+     left: 0;
+     background-color: white;
+     transform-origin: bottom center;
+     transition: transform 0.25s ease-out;
+ }
+ 
+ .link:hover:after {
+     transform: scaleX(1);
+     transform-origin: bottom center;
+ }
+ 
