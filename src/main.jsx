@@ -7,7 +7,7 @@ import Quote from './components/Quote/Quote'
 import TattooArtist from './components/TattooArtist/TattooArtist'
 import Contact from "./components/Contact/Contact.jsx";
 import Location from './components/Location/Location.jsx'
-
+import Footer from './components/Footer/Footer.jsx'
 
 function Main() {
     return (
@@ -20,6 +20,7 @@ function Main() {
             <TattooArtist/>
             <Contact/>
             <Location/>
+            <Footer/>
         </React.StrictMode>
     );
 }

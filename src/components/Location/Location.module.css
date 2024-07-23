@@ -6,29 +6,31 @@
      margin-right: auto;
      left: 0;
      right: 0;
-     width: 85.1%;
+     width: 85%;
      border: 1px solid;
      top: -1px;
      color: white;
      height: min-content;
 }
 
-.header ,
+.header,
 .address,
 .link,
 .openingtime,
 .headeradress,
-.openingtimeheader{
+.openingtimeheader {
      font-family: 'Playfair Display SC';
      color: white;
 }
+
 .address,
-.openingtime{
+.openingtime {
      font-size: 2em;
 }
+
 .headeradress,
-.openingtimeheader{
-   font-size: 3em;
+.openingtimeheader {
+     font-size: 3em;
 }
 
 
@@ -49,8 +51,9 @@
      width: 100%;
      text-align: center;
 }
-.container>ul>li{
-margin-top: 5px;
+
+.container>ul>li {
+     margin-top: 5px;
 }
 
 .container>ul {
@@ -60,10 +63,12 @@ margin-top: 5px;
      text-align: left;
      margin: 0px 0 0 40px;
 }
-.headeradress{
-    margin: 0 0 0 20px;
-    text-align: left;
+
+.headeradress {
+     margin: 0 0 0 20px;
+     text-align: left;
 }
+
 .address {
 
      padding: 0;
@@ -111,44 +116,97 @@ margin-top: 5px;
      flex-direction: row;
      margin-bottom: 20px;
 }
-.maps{
+
+.maps {
      position: relative;
      width: 700px;
      left: 0;
      margin-right: 50px;
 }
-.openingtimeheader{
+
+.openingtimeheader {
      margin: 0;
      font-variant-numeric: lining-nums;
      text-align: left;
 }
-.openingtime{
+
+.openingtime {
      margin: 0 0 0 20px;
      font-variant-numeric: lining-nums;
      text-align: left;
 }
-.openingtimediv{
+
+.openingtimediv {
      margin: 20px 0 0 20px;
      width: 100%;
      position: relative;
 }
 
 @media (max-width: 1400px) {
+
      .address,
-.openingtime,
-.link{
-     font-size: 2vw;
+     .openingtime {
+          font-size: 2.5vw;
+     }
+
+     .link {
+          font-size: 1.8vw;
+     }
+
+     .headeradress,
+     .openingtimeheader {
+          font-size: 3.2vw;
+     }
+
+     .maps {
+          width: 50vw;
+     }
+
+     .building {
+          width: 50vw;
+     }
+
+     .container {
+          margin: 0 20px 20px 0px;
+     }
 }
-.headeradress,
-.openingtimeheader{
-   font-size: 3vw;
-}
-.maps{
-     width: 50vw;
-}
-.building{width: 50vw;}
-.container{    margin: 0 20px 20px 0px;}
-}
+
 @media (max-width: 700px) {
-     
+     .div1 {
+          flex-direction: column;
+          width: 100%;
+     }
+
+     .div2 {
+          flex-direction: column-reverse;
+          width: 100%;
+     }
+
+     .building,
+     .maps {
+          width: 90%;
+          margin: 10px 5%;
+     }
+
+     .headeradress,
+     .openingtimeheader {
+          font-size: 4.5vw;
+     }
+
+     .address,
+     .openingtime {
+          font-size: 4vw;
+     }
+
+     .link {
+          font-size: 3vw;
+
+     }
+     .container>ul {
+
+          margin: 0 8vw 0 0 ;
+
+          float: right;
+
+     }
 }
