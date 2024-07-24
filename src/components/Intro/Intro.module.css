@@ -1,12 +1,12 @@
 @import url("../../Fonts.css");
 
-.div{
+.div {
      position: relative;
      background-image: url('../../Assets/Examplepic.png');
      background-repeat: no-repeat;
      background-size: cover;
-     background-position: center;  
-     height: 90vh;  
+     background-position: center;
+     height: 90vh;
      width: 100%;
      top: -5px;
      left: 0;
@@ -15,20 +15,20 @@
 
 .headeryour,
 .headertattoo,
-.headerstudio{
+.headerstudio {
      color: white;
      font-family: 'Playfair Display SC';
      margin: 0;
      font-size: 5.5vw;
 }
- .yourtattoodiv
- {
-     display: flex;
-     justify-content:space-between;
-     margin-top: 3px;
- }
 
- .headerstudio{
+.yourtattoodiv {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 3px;
+}
+
+.headerstudio {
      position: absolute;
      bottom: 0;
      margin-left: auto;
@@ -37,25 +37,35 @@
      right: 0;
      text-align: center;
      margin-bottom: 20px;
- }
+}
 
-.headeryour{
+.headeryour {
      margin-left: 1em;
 }
 
-.headertattoo{
+.headertattoo {
      margin-right: 1em;
 }
 
- @media (min-height: 1400px)  {
-     .div{
+@media (min-height: 1400px) {
+     .div {
           height: 93vh;
      }
-     
- }
- @media (min-height: 1700px)  {
-     .div{
+
+}
+
+@media (min-height: 1700px) {
+     .div {
           height: 95.5vh;
      }
-     
- }
+
+}
+
+@media (max-width: 860px) {
+
+     .headeryour,
+     .headertattoo,
+     .headerstudio {
+          font-size: 10vw;
+     }
+}

@@ -87,3 +87,9 @@
      transform-origin: bottom center;
  }
  
+ @media (max-width: 320px) {
+     .linkscontainer{
+          flex-direction: column;
+     }
+     
+ }
