@@ -9,3 +9,6 @@ body{
 li{
     user-select: none;
 }
+* {
+    scroll-behavior: smooth;
+}

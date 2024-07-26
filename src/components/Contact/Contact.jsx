@@ -2,11 +2,13 @@ import React from 'react'
 import css from './Contact.module.css'
 import { useTranslation } from "react-i18next";
 
-function Contact () {
-    const { t }=useTranslation ();
+function Contact() {
+    const { t } = useTranslation();
 
     return (
         <div className={css.box}>
+            <p className={css.navigator} id='Contact'></p>
+
             <p className={css.header}>{t("contact")}</p>
             <div className={css.flexbox}>
                 <p className={css.info}>{t("contactinfo")}</p>

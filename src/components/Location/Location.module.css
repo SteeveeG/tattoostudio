@@ -141,7 +141,13 @@
      width: 100%;
      position: relative;
 }
-
+.navigator{
+     position: relative;
+     bottom: 73px;
+     margin: 0;
+     padding: 0;
+     z-index: -50;
+ }
 @media (max-width: 1400px) {
 
      .address,

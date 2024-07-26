@@ -1,5 +1,11 @@
 
-
+.navigator{
+    position: relative;
+    bottom: 71px;
+    margin: 0;
+    padding: 0;
+    z-index: -50;
+}
 .box {
     position: relative;
     display: flex;
