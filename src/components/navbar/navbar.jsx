@@ -42,16 +42,16 @@ const closeNavbar = () => {
       </label>
       <ul className={css.linklist}>
         <li className={css.linkcontainer}>
-          <a href="#" className={css.linktext} onClick={() => closeNavbar()}>{t("tattooartists")}</a>
+          <a href="#TattooArtist" className={css.linktext} onClick={() => closeNavbar()}>{t("tattooartists")}</a>
         </li>
         <li className={css.linkcontainer}>
-          <a href="#" className={css.linktext} onClick={() => closeNavbar()}>{t("contact")}</a>
+          <a href="#Contact" className={css.linktext} onClick={() => closeNavbar()}>{t("contact")}</a>
         </li>
         <li className={css.ultattoologo}>
           <a href="#" className={css.linklogo}>{t("tattoostudioname")}</a>
         </li>
         <li className={css.linkcontainer}>
-          <a href="#" className={css.linktext} onClick={() => closeNavbar()}>{t("location")}</a>
+          <a href="#Location" className={css.linktext} onClick={() => closeNavbar()}>{t("location")}</a>
         </li>
         <div className={css.languagediv}>
           <div className={css.languagecontainer}>

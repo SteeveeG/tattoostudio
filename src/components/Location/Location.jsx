@@ -5,10 +5,12 @@ import { useTranslation } from "react-i18next";
 
 
 function Location() {
-  const { t }=useTranslation ();
+  const { t } = useTranslation();
 
   return (
     <div className={css.box}>
+      <p className={css.navigator} id='Location'></p>
+
       <p className={css.header}>{t("location")}</p>
       <div className={css.div1}>
         <img src={examplepic} alt="example pic" className={css.building} />
@@ -16,7 +18,7 @@ function Location() {
           <p className={css.headeradress}>{t("adress")}</p>
           <p className={css.address}>
             Pliensaustraße 37<br />Esslingen 73728</p>
-           <ul>
+          <ul>
             <li>
               <a href="#" className={css.link}>{t("googlemaps")}</a>
             </li>

@@ -22,6 +22,7 @@ function TattooArtist() {
 
     return (
         <div className={css.box}>
+            <p className={css.navigator} id='TattooArtist'></p>
             <p className={css.header}>{t("tattooartists")}</p>
             <div className={css.row}>
                 <div className={css.column}>

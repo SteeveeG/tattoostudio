@@ -84,7 +84,13 @@
     margin-left: auto;
     margin-right: 7vw;
 }
-
+.navigator{
+    position: relative;
+    bottom: 73px;
+    margin: 0;
+    padding: 0;
+    z-index: -50;
+}
 @media (max-width: 740px) {
     .flexbox{
         flex-direction: column;

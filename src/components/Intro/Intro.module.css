@@ -20,6 +20,7 @@
      font-family: 'Playfair Display SC';
      margin: 0;
      font-size: 5.5vw;
+     user-select: none;
 }
 
 .yourtattoodiv {
