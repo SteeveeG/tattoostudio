@@ -1,6 +1,8 @@
 import React from 'react'
 import css from './Location.module.css'
 import examplepic from '../../Assets/Example.png'
+import gebäude1 from '../../Assets/Gebäude1.jpg'
+import gebäude2 from '../../Assets/Gebäude2.jpg'
 import { useTranslation } from "react-i18next";
 
 
@@ -13,11 +15,11 @@ function Location() {
 
       <p className={css.header}>{t("location")}</p>
       <div className={css.div1}>
-        <img src={examplepic} alt="example pic" className={css.building} />
+        <img src={gebäude1} alt="example pic" className={css.building} />
         <div className={css.container} >
           <p className={css.headeradress}>{t("adress")}</p>
           <p className={css.address}>
-            Pliensaustraße 37<br />Esslingen 73728</p>
+            baumwerder 37<br />höningen 432</p>
           <ul>
             <li>
               <a href="#" className={css.link}>{t("googlemaps")}</a>
@@ -34,7 +36,7 @@ function Location() {
           <p className={css.openingtime}>{t("openingdays")}</p>
           <p className={css.openingtime}>{t("openinghours")}</p>
         </div>
-        <img src={examplepic} alt="example pic" className={css.maps} />
+        <img src={gebäude2} alt="example pic" className={css.maps} />
       </div>
 
 
