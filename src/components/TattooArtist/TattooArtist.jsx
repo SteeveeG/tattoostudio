@@ -26,42 +26,256 @@ function TattooArtist() {
             <p className={css.header}>{t("tattooartists")}</p>
             <div className={css.row}>
                 <div className={css.column}>
-                    <p className={css.tattooartist}>Tattowierer Nummer 1</p>
-                    <img src={Tattoowierer} alt="example pic"/>
-                    <img src={Tattoo2} alt="example pic"/>
-                    <img src={Tattoo3} alt="example pic"/>
-                    <img src={Tattoo4} alt="example pic"/>
-                    <img src={Tattoo5} alt="example pic"/>
-                    <img src={Tattoo6} alt="example pic"/>
+                    <p className={css.tattooartist}>samuel</p>
+
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoowierer} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>samuel</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo2} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>work by samuel</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo3} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo4} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo5} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo6} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div className={css.column}>
-
-                    <img src={Tattoo7} alt="example pic"/>
-                    <img src={Tattoo8} alt="example pic"/>
-                    <img src={Tattoo9} alt="example pic"/>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo7} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo8} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo9} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <p className={css.tattooartist}>Tattowierer Nummer 2</p>
-                    <img src={TattoowiererFrau} alt="example pic"/>
-                    <img src={Tattoo11} alt="example pic"/>
-                    <img src={Tattoo12} alt="example pic"/>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={TattoowiererFrau} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo11} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo12} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div className={css.column}>
-                    <img src={Tattoo10} alt="example pic"/>
-                    <img src={Tattoo10} alt="example pic"/>
-                    <img src={Tattoo4} alt="example pic"/>
-                    <img src={Tattoo3} alt="example pic"/>
-                    <img src={Tattoo2} alt="example pic"/>
-                    <img src={Tattoo10} alt="example pic"/>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo2} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo7} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo3} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>           <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo9} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>           <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo6} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>           <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo3} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div className={css.column}>
-                    <img src={Tattoo10} alt="example pic"/>
-                    <img src={Tattoo5} alt="example pic"/>
-                    <img src={Tattoo6} alt="example pic"/>
-                    <img src={Tattoo7} alt="example pic"/>
-                    <img src={Tattoo1} alt="example pic" />
-                    <img src={Tattoo10} alt="example pic" />
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo10} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo5} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo6} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo7} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo1} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={css.container}>
+                        <div className={css.wrapper}>
+                            <img src={Tattoo10} />
+                            <div className={css.description}>
+                                <div className={css.textcontainer}>
+                                    <p className={css.text}>Tattowierer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
