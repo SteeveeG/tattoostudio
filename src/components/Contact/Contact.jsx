@@ -8,11 +8,19 @@ function Contact() {
     return (
         <div className={css.box}>
             <p className={css.navigator} id='Contact'></p>
-
             <p className={css.header}>{t("contact")}</p>
             <div className={css.flexbox}>
-                <p className={css.info}>{t("contactinfo")}</p>
                 <div>
+                    <p className={css.info}>{t("contactinfo")}</p>
+                    <ul className={css.links}>
+                        <li> <a href="https://github.com/SteeveeG" target="_blank"
+                            className={css.link}>Github</a></li>
+                        <li> <a href="https://stevenkuehnl.com" target="_blank"
+                            className={css.link}>Website</a></li>
+                    </ul>
+                </div>
+
+                <div className={css.linkcontainer}>
                     <ul className={css.linklist}>
                         <div>
                             <li className={css.linkcontainer}>

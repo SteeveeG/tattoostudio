@@ -15,9 +15,11 @@ const resources = {
      "openinghoursheader":"opening hours",
      "openingdays":"mon - sat",
      "openinghours":"11:00 to 18:00",
-     "bookinginfo":"Bookings Are Through instagram or Whatsapp please Note the info that it can take a few days for an answer :)",
-     "contactinfo":"Please Note Before Contacting us we need: Your Full Age a Description of your Idea as precise as you can, and if you can, send some inspirations pictures, the approxomate desired size of the Tattoo, wich Body youre considering (Photo),  When Youre Most Available",
+     "bookinginfo":"Bookings do not exist. This is not a real Tattoo Studio website :)",
+     "contactinfo":"Please note, this is not a real tattoo studio; it's just a learning project and doesn't exist. However, if you liked it, please check out my GitHub or my Website <3",
 
+      "tattooartist":"Tattoo Artist",
+       "workby":"Work By"
     },
   },
   de: {
@@ -33,8 +35,13 @@ const resources = {
      "openingdays":"mon - sam",
      "openinghours":"11:00 bis 18:00",
      "contact":"Kontakt",
-     "bookinginfo":"Buchungen sind über Instagram oder Whatsapp Bitte beachten Sie die Info, dass es ein paar Tage für eine Antwort dauern kann :)",
-     "contactinfo":"Bitte beachten Sie: Bevor Sie uns kontaktieren, benötigen wir: Ihr volles Alter eine Beschreibung Ihrer Idee so genau wie möglich, und wenn Sie können, senden Sie uns einige Inspirationsbilder, die ungefähre gewünschte Größe des Tattoos, welchen Körper Sie in Betracht ziehen (Foto), Wann du am besten verfügbar bist"
+     "bookinginfo":"Buchungen existieren nicht. Dies ist keine echte Tattoo Studio Website :)",
+     "contactinfo":"Bitte beachten Sie, dies ist kein echtes Tattoostudio; es handelt sich lediglich um ein Lernprojekt und existiert nicht. Wenn es Ihnen jedoch gefallen hat, besuchen Sie bitte mein GitHub oder meine Website <3",
+
+     "tattooartist":"Tattoo Künstler",
+     "workby":"Gestochen von"
+
+
     },
   },
 };

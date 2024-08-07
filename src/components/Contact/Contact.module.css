@@ -50,7 +50,8 @@
     font-family: 'Playfair Display SC';
     font-size: 1.4em;
     line-height: 40px;
-    line-break: auto
+    line-break: auto;
+    font-variant-numeric: lining-nums;
 ;
 }
 .flexbox{
@@ -80,7 +81,7 @@
     font-family: 'Playfair Display SC';
     font-size: 1em;
 }
-.flexbox > div {
+.linkcontainer {
     margin-left: auto;
     margin-right: 7vw;
 }
@@ -91,6 +92,27 @@
     padding: 0;
     z-index: -50;
 }
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
+.links > li{
+    width: auto;
+    margin: 0 20px;
+    list-style: none;
+}
+@media (max-width: 1100px) {
+    .info{
+        width: 90%;
+    }
+}
+
 @media (max-width: 740px) {
     .flexbox{
         flex-direction: column;
@@ -112,7 +134,7 @@
         margin: 20px 0 0 0 ;
         flex-flow: wrap;
     }
-    .linklist > div {
+    .linkcontainer {
         margin: 10px 21px;
     }
     .link{
@@ -129,7 +151,7 @@
         margin: 0 0 0 15px;
         padding: 0;
     }
-    .linklist > div{
+    .linkcontainer {
         margin: 5px 20px;
     }
 
