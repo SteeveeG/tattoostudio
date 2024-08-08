@@ -1,69 +1,68 @@
-@import url("../../Fonts.css");
+ @import url("../../Fonts.css");
 
 .div {
      position: relative;
-     background-image: url('../../Assets/Examplepic.png');
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
      height: 90vh;
      width: 100%;
+     overflow: hidden;
      top: -5px;
      left: 0;
 }
 
+.vid {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     z-index: -1;
+}
+
+.yourtattoodiv {
+     position: absolute;
+     top: 9%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     padding: 0 1em;
+     z-index: 1;
+}
 
 .headeryour,
 .headertattoo,
 .headerstudio {
      color: white;
-     font-family: 'Playfair Display SC';
+       font-family: 'Playfair Display SC';
      margin: 0;
      font-size: 5.5vw;
      user-select: none;
 }
 
-.yourtattoodiv {
-     display: flex;
-     justify-content: space-between;
-     margin-top: 3px;
-}
-
 .headerstudio {
      position: absolute;
-     bottom: 0;
-     margin-left: auto;
-     margin-right: auto;
-     left: 0;
-     right: 0;
+     bottom: 20px; /* Abstand vom unteren Rand */
+     left: 50%;
+     transform: translateX(-50%);
      text-align: center;
-     margin-bottom: 20px;
-}
-
-.headeryour {
-     margin-left: 1em;
-}
-
-.headertattoo {
-     margin-right: 1em;
+     z-index: 1; /* Über dem Video */
 }
 
 @media (min-height: 1400px) {
      .div {
           height: 93vh;
      }
-
 }
 
 @media (min-height: 1700px) {
      .div {
           height: 95.5vh;
      }
-
 }
 
 @media (max-width: 860px) {
-
      .headeryour,
      .headertattoo,
      .headerstudio {

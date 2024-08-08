@@ -12,8 +12,15 @@ import Tattoo9 from '../../Assets/Tattoo9.jpg';
 import Tattoo10 from '../../Assets/Tattoo10.jpg';
 import Tattoo11 from '../../Assets/Tattoo11.jpg';
 import Tattoo12 from '../../Assets/Tattoo12.jpg';
+import Tattoo13 from '../../Assets/Tattoo13.jpg';
+import Tattoo14 from '../../Assets/Tattoo14.jpg';
+import Tattoo15 from '../../Assets/Tattoo15.jpg';
+import Tattoo16 from '../../Assets/Tattoo16.jpg';
 import Tattoowierer from '../../Assets/Tattoowierer.jpg';
+import Tattoowierer2 from '../../Assets/Tattoowierer2.jpg';
+import Tattoowierer3 from '../../Assets/Tattoowierer3.jpg';
 import TattoowiererFrau from '../../Assets/Tattoowiererfrau.jpg';
+import TattoowiererFrau2 from '../../Assets/Tattoowiererfrau2.jpg';
 
 import { useTranslation } from 'react-i18next';
 
@@ -73,7 +80,7 @@ function TattooArtist() {
                     <p className={css.tattooartist}>{t("tattooartist")}: Emma</p>
                     <div className={css.container}>
                         <div className={css.wrapper}>
-                            <img src={TattoowiererFrau} />
+                            <img src={TattoowiererFrau2} />
                             <div className={css.description}>
                                 <div className={css.textcontainer}>
                                     <p className={css.text}>Emma</p>
@@ -83,7 +90,7 @@ function TattooArtist() {
                     </div>
                     <div className={css.container}>
                         <div className={css.wrapper}>
-                            <img src={Tattoo6} />
+                            <img src={Tattoo13} />
                             <div className={css.description}>
                                 <div className={css.textcontainer}>
                                     <p className={css.text}>{t("workby")} Emma</p>
@@ -96,7 +103,7 @@ function TattooArtist() {
                 <div className={css.column}>
                     <div className={css.container}>
                         <div className={css.wrapper}>
-                            <img src={Tattoo7} />
+                            <img src={Tattoo16} />
                             <div className={css.description}>
                                 <div className={css.textcontainer}>
                                     <p className={css.text}>{t("workby")} Lenni</p>
@@ -107,7 +114,7 @@ function TattooArtist() {
                     <p className={css.tattooartist}>{t("tattooartist")}: Lenni</p>
                     <div className={css.container}>
                         <div className={css.wrapper}>
-                            <img src={Tattoowierer} />
+                            <img src={Tattoowierer2} />
                             <div className={css.description}>
                                 <div className={css.textcontainer}>
                                     <p className={css.text}>Lenni</p>
@@ -138,7 +145,7 @@ function TattooArtist() {
                     </div>
                     <div className={css.container}>
                         <div className={css.wrapper}>
-                            <img src={Tattoo11} />
+                            <img src={Tattoo1} />
                             <div className={css.description}>
                                 <div className={css.textcontainer}>
                                     <p className={css.text}>{t("workby")} Isabell</p>
@@ -161,7 +168,7 @@ function TattooArtist() {
                 <div className={css.column}>
                     <div className={css.container}>
                         <div className={css.wrapper}>
-                            <img src={Tattoo2} />
+                            <img src={Tattoo14} />
                             <div className={css.description}>
                                 <div className={css.textcontainer}>
                                     <p className={css.text}>{t("workby")} Samuel</p>
@@ -190,7 +197,7 @@ function TattooArtist() {
                         </div>
                     </div>           <div className={css.container}>
                         <div className={css.wrapper}>
-                            <img src={Tattoo9} />
+                            <img src={Tattoo15} />
                             <div className={css.description}>
                                 <div className={css.textcontainer}>
                                     <p className={css.text}>{t("workby")} Isabell</p>
@@ -221,7 +228,7 @@ function TattooArtist() {
                 <div className={css.column}>
                     <div className={css.container}>
                         <div className={css.wrapper}>
-                            <img src={Tattoo10} />
+                            <img src={Tattoo11} />
                             <div className={css.description}>
                                 <div className={css.textcontainer}>
                                     <p className={css.text}>{t("workby")} Lenni</p>
@@ -252,7 +259,7 @@ function TattooArtist() {
                     <p className={css.tattooartist}>{t("tattooartist")}: John</p>
                     <div className={css.container}>
                         <div className={css.wrapper}>
-                            <img src={Tattoowierer} />
+                            <img src={Tattoowierer3} />
                             <div className={css.description}>
                                 <div className={css.textcontainer}>
                                     <p className={css.text}>John</p>
@@ -262,7 +269,7 @@ function TattooArtist() {
                     </div>
                     <div className={css.container}>
                         <div className={css.wrapper}>
-                            <img src={Tattoo1} />
+                            <img src={Tattoo8} />
                             <div className={css.description}>
                                 <div className={css.textcontainer}>
                                     <p className={css.text}>{t("workby")} John</p>
