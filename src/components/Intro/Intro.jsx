@@ -9,7 +9,7 @@ function Intro() {
                 <p className={introCss.headeryour}>Your</p>
                 <p className={introCss.headertattoo}>Tattoo</p>
             </div>
-            <video className={introCss.vid} src={vid} autoPlay muted loop>
+            <video className={introCss.vid} src={vid} autoPlay muted loop playsInline>
             </video>
 
             <p className={introCss.headerstudio}>Studio</p>
