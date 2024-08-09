@@ -1,6 +1,5 @@
 import React from 'react'
 import css from './Location.module.css'
-import examplepic from '../../Assets/Example.png'
 import gebäude1 from '../../Assets/Gebäude1.jpg'
 import gebäude2 from '../../Assets/Gebäude2.jpg'
 import { useTranslation } from "react-i18next";
@@ -12,7 +11,6 @@ function Location() {
   return (
     <div className={css.box}>
       <p className={css.navigator} id='Location'></p>
-
       <p className={css.header}>{t("location")}</p>
       <div className={css.div1}>
         <img src={gebäude1} alt="example pic" className={css.building} />
