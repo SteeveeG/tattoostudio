@@ -9,7 +9,7 @@ const resources = {
      "contact":"contact",
      "location":"location",
      "quote":"Where the ink meets the soul , art is born." ,
-     "adress":"adress",
+     "adress":"address",
      "applemaps":"apple maps",
      "googlemaps":"google maps",
      "openinghoursheader":"opening hours",
